@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    width: 201.5vh;
+    height: 300vh;
+    font-family: 'Madefor';
+    background-color: #FFF;
+
+}
+@font-face {
+    font-family: 'Madefor';
+    src: url('WixMadeforDisplay-Regular.otf');
+}
+@font-face {
+    font-family: 'Helvetica';
+    src: url('Helvetica.ttf');
+}
+header {
+    background-color: rgb(255, 255, 255);
+    width: 88vw;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    border-bottom: 4px solid black;
+    margin-left: 5%;
+    font-weight: 100;
+
+
+}
+header img {
+    width: 20px;
+    margin-left: 12px;
+}
+#headerleft {
+    justify-content: center;
+    display: flex;
+    width: 60%;
+    margin-left: 16%;
+}
+#headerright {
+    width: 20%;
+}
+span {
+    margin-left: 100px;
+}
+#icone-fb {
+    margin-left: 143px;
+}
+p {
+    font-size: 1.3rem;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Zen Antique', serif;
+    color: black;
+}
+a {
+    text-decoration: none;
+}
+#bolos {
+    height: 70vh;
+    display: flex;
+    margin-top: 40px;
+}
+#bolos img {
+    width: 29%;
+    height: 135%;
+}
+.img01 {
+    margin-left: 5%;
+}
+.img02 {
+    margin-left: 1%
+
+}
+#entrebolos {
+    width: 29%;
+    height: 135%;
+    background-color: #F7E9E4;
+    margin-left: 1%
+}
+.casamentos {
+    width: 61%;
+    margin-top: 45%;
+    text-align: center;
+    margin-left: 21%;
+    font-size: 2rem;
+}
+.peça {
+    margin-top: 8%;
+    margin-left: 35%;
+    width: 157px;
+    height: 42px;
+    background-color: #FFF;
+    border: 1px solid #FFF;
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+.peça:hover {
+    margin-top: 8%;
+    margin-left: 35%;
+    width: 157px;
+    height: 42px;
+    background-color: #FFF;
+    border: 1px solid #FFF;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    border: 2px solid black;
+}
+#personalizados {
+    margin-top: 5%;
+}
+#personalizados img {
+    width: 88vw;
+    height: 16vh;
+    margin-left: 5%;
+    margin-top: 9%;
+
+}
+#personalizados h2 {
+    position: absolute;
+    margin-top: -4.5%;
+    margin-left: 30%;
+    font-family: 'Helvetica';
+
+}
+#conheça img {
+    width: 44%;
+    margin-top: 20px;
+
+}
+#conheça button {
+    position: absolute;
+}
+.btn-conheça {
+    margin-top: 26%;
+    margin-left: -14%;
+    width: 165px;
+    height: 50px;
+    background-color: #FFF;
+    border: 1px solid #FFF;
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+.btn-conheça:hover {
+    margin-top: 26%;
+    margin-left: -14%;
+    width: 165px;
+    height: 50px;
+    background-color: #FFF;
+    border: 2px solid rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+.btn-contate {
+    margin-top: 26%;
+    margin-left: -15%;
+    width: 165px;
+    height: 50px;
+    background-color: #FFF;
+    border: 1px solid #FFF;
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+.btn-contate:hover {
+    margin-top: 26%;
+    margin-left: -15%;
+    width: 165px;
+    height: 50px;
+    background-color: #FFF;
+    border: 2px solid rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+.img-03 {
+    margin-left: 5%;
+}
+.img-04 {
+    margin-left: 1%;
+}
+#h2-instagram {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+.galeria {    
+    width: 88vw;
+    height: 30vh;
+    margin-left: 5%;
+    overflow: hidden;
+}
+.fotos img {
+    width: 190px;
+    margin-top: 1%;
+}
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#inputEmail {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+#submit {
+    margin-top: 30px;
+}
+.inscrever {
+    top: 20px;
+    width: 180px;
+    height: 40px;
+    background-color: rgb(5, 5, 5);
+    border: 1px solid #FFF;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    color: #FFF;
+}
+#footer {
+    width: 100%;
+    height: 3%;
+    background-color: #F7E9E4;
+    color: rgb(70, 66, 66);
+}
+.p-footer {
+    margin-top: 2%;
+    font-size: 0.9rem;
+}
