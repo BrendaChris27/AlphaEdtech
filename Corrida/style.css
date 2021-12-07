@@ -1,0 +1,108 @@
+<<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Game;
+    src: url(Fontes/Game\ Of\ Squids.otf);
+}
+html, body {
+    width:100%;
+    height: 100%;
+    background-image: url(fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn {
+    width: 170px;
+    height: 70px;
+    border-radius: 20px;
+    margin-left: 255px;
+    margin-top: 30px;
+    font-size: 1.2rem;
+    background-color: rgb(110, 168, 190);
+    color: black;
+    cursor: pointer;
+}
+#titulo {
+    color: rgb(110, 168, 190);
+    font-family: Game;
+    font-size: 3.5rem;
+
+}
+#quem, #escolha {
+    font-size: 1.6rem;
+    color: white;
+    font-weight: 200;
+
+}
+#titulo, #quem, #escolha {
+    align-items: center;
+    text-align: center;
+}
+#vencedor {
+    font-size: 2.6rem;
+    font-weight: 200;
+    margin-top: 188px;
+    margin-left: 35%;
+    color: rgb(110, 168, 190);
+    font-family: Game;
+=======
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Game;
+    src: url(Fontes/Game\ Of\ Squids.otf);
+}
+html, body {
+    width:100%;
+    height: 100%;
+    background-image: url(fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn {
+    width: 170px;
+    height: 70px;
+    border-radius: 20px;
+    margin-left: 255px;
+    margin-top: 30px;
+    font-size: 1.2rem;
+    background-color: rgb(110, 168, 190);
+    color: black;
+    cursor: pointer;
+}
+#titulo {
+    color: rgb(110, 168, 190);
+    font-family: Game;
+    font-size: 3.5rem;
+
+}
+#quem, #escolha {
+    font-size: 1.6rem;
+    color: white;
+    font-weight: 200;
+
+}
+#titulo, #quem, #escolha {
+    align-items: center;
+    text-align: center;
+}
+#vencedor {
+    font-size: 2.6rem;
+    font-weight: 200;
+    margin-top: 188px;
+    margin-left: 35%;
+    color: rgb(110, 168, 190);
+    font-family: Game;
+>>>>>>> fa7c5e434e46e5432294141f4e2c2d8ccf72916b
+}
