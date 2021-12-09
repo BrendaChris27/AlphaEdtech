@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Array</title>
+</head>
+<body>
+    <h2>Estou praticando interação com vetores<br>Por favor, escolha 4 números</h2>
+    <div id="vector">
+        <form id="numbers">
+            <input type="number" class="num" placeholder="Primeiro Número">
+            <input type="number" class="num" placeholder="Segundo Número">
+            <input type="number" class="num" placeholder="Terceiro NÚmero">
+            <input type="number" class="num" placeholder="Quarto Número">
+        </form>
+
+    <div id="salvar">
+        <button class="btn" onclick="btnsave()">Salvar na memória</button>
+        <div id="inverter"></div>
+        <button class="btn" onclick="btninvert()">Inverter a ordem</button>
+        <div id="crescente"></div>
+        <button class="btn" onclick="btnordem()">Ordem crescente</button>
+    </div>
+    <div id="result"></div>
+</body>
+</html>
